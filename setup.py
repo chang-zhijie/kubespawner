@@ -2,6 +2,8 @@ from __future__ import print_function
 from setuptools import setup, find_packages
 import sys
 
+# czj test commit push
+
 v = sys.version_info
 if v[:2] < (3, 5):
     error = "ERROR: jupyterhub-kubespawner requires Python version 3.5 or above."
